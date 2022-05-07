@@ -1,0 +1,53 @@
+/* css var */
+:root {
+    --button-border-radius: 0.25rem;
+    --button-border-width: 1px;
+
+    --button-padding: 10px;
+    --button-margin: 3px;
+
+    --button-font-size: 1.5rem;
+
+    --button-dark-background-color: rgba(34, 34, 34, 0.5);
+    --button-light-background-color: rgba(240, 240, 240, 0.5);
+
+    --button-acrylic-blur-factor: 5px;
+}
+
+.MOCButton {
+    font-size: var(--button-font-size);
+    padding: var(--button-padding);
+    margin: var(--button-margin);
+    border: none;
+    perspective: 1000px;
+    user-select: none;
+}
+
+.MOCButtonDark {
+    background-color: var(--button-dark-background-color);
+}
+
+.MOCButtonLight {
+    background-color: var(--button-light-background-color);
+}
+
+.MOCButtonAcrylic {
+    backdrop-filter: blur(var(--button-acrylic-blur-factor));
+    -webkit-backdrop-filter: blur(var(--button-acrylic-blur-factor));
+}
+
+.MOCButtonPlastic {
+
+}
+
+.MOCButtonGaussian {
+
+}
+
+.MOCButtonMica {
+
+}
+
+.MOCButtonFrosted {
+
+}
